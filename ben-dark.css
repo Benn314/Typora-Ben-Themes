@@ -1912,6 +1912,8 @@ div.cm-s-inner[lang="ruby"] .cm-atom {
   padding-left: 0px;
 }
 
+
+
 /* 代码块-内区域 */
 .CodeMirror{
   border-radius: 0px 0px 20.5px 20.5px;
@@ -1966,3 +1968,5 @@ strong{
 	font-weight: 500;
 	margin-bottom: -0.65rem; 导致有序列表溢出的原因 
 } */
+
+/* 无法单独设置引用块内的代码块 即不能 blockquote .md-fences{} 设置引用块内的代码块的格式 .md-fences{}是全局的*/
