@@ -1115,7 +1115,7 @@ body::-moz-selection {
 #write li .cm-s-inner {
 	font-size: 1.05rem;
 	font-weight: 500;
-	margin-bottom: -0.65rem;
+	/* margin-bottom: -0.65rem; */
 }
 
 /* Code block inside list with better margins, but it resizes borders and consider all as first-child :(
@@ -1958,3 +1958,11 @@ strong{
 /* 表格样式-四周更改为圆角样式 待更新...... */
 
 /* 高亮样式，图片样式 侧边栏-文件样式 任务样式 */
+
+/* bug：在有序列表中代码块底部显示溢出 */
+/* Code block inside lists */
+/* #write li .cm-s-inner {
+	font-size: 1.05rem;
+	font-weight: 500;
+	margin-bottom: -0.65rem; 导致有序列表溢出的原因 
+} */

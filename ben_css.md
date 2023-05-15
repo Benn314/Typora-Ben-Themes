@@ -1,6 +1,7 @@
 # 修改样式汇总
 
 ```css
+
 /* 代码块-外区域 */
 .md-fences{
   border-radius: 20px;
@@ -116,9 +117,16 @@ input[type="checkbox"]:checked:before {
 	margin-left: -0.1rem;
   	background-color: rgb(0 0 0 / 20%);
 }
+
+/* bug：在有序列表中代码块底部显示溢出 */
+/* Code block inside lists */
+#write li .cm-s-inner {
+	font-size: 1.05rem;
+	font-weight: 500;
+	margin-bottom: -0.65rem; /* 导致有序列表溢出的原因 */
+} 
 ```
 
-​	
 
 小结：
 
